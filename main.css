@@ -27,3 +27,14 @@ html {
     padding-top: 1%;
     font-size: 1.25rem;
 }
+
+.quote p {
+    padding-top: 8%;
+    font-family: "Pinyon Script", cursive;
+    font-size: 2rem;
+    margin-bottom: 0%;
+}
+
+.quote span {
+    float: right;
+}
