@@ -17,11 +17,24 @@ html {
 }
 
 .nav {
+    padding-left: 2%;
     padding-bottom: .5%;
+    background-color: transparent;
+    transition: background-color 250ms;
 }
 
 .nav-link {
     color: white;
+    transition: 250ms background-color;
+    border-radius: 5px;
+    border-left: chocolate;
+    border-right: chocolate;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: chocolate;
+    border-radius: 5px;
 }
 
 .btn {

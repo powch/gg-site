@@ -10,7 +10,6 @@ var discordBtn = function() {
     });
 }
 
-
 //loads functions when DOM is loaded
 $(function() {
    fade();
