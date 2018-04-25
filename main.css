@@ -13,7 +13,7 @@ html {
 .jumbotron h1 {
     font-family: "Luckiest Guy", Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     text-shadow: 3px 3px lightskyblue;
 }
@@ -55,7 +55,7 @@ html {
 .post {
     text-align: center;
     align-items: center;
-    padding-top: 3.5%;
+    padding-top: 1.5%;
 }
 
 .post h3 {
@@ -71,7 +71,7 @@ html {
 .quote p {
     padding-top: 8%;
     font-family: "Pinyon Script", cursive;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0%;
 }
 
@@ -81,4 +81,12 @@ html {
 
 .video {
     padding-top: 5%;
+}
+
+.pull-up {
+    margin-top: -2%;
+}
+
+.push-down {
+    margin-bottom: 2%;
 }
