@@ -3,7 +3,7 @@ html {
 }
 
 .jumbotron {
-    background-color: rgb(212, 148, 29);
+    background-color: rgb(243, 125, 50);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
     padding-bottom: 0%;
@@ -11,9 +11,11 @@ html {
 }
 
 .jumbotron h1 {
+    font-family: "Luckiest Guy", Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 3rem;
     color: white;
+    text-shadow: 3px 3px lightskyblue;
 }
 
 .nav {
@@ -27,18 +29,16 @@ html {
     color: white;
     transition: 250ms background-color;
     border-radius: 5px;
-    border-left: chocolate;
-    border-right: chocolate;
 }
 
 .nav-link:hover {
     color: white;
-    background-color: chocolate;
+    background-color: rgb(233,113,33);
     border-radius: 5px;
 }
 
 .active {
-    background-color: chocolate;
+    background-color: rgb(233,113,33);
     border-radius: 5px;
     color: white;
 }

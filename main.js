@@ -6,7 +6,7 @@ var fade = function() {
 //discord bot link button
 // var discordBtn = function() {
 //     document.getElementById("discord").addEventListener("click", function() {
-//         window.open("https://discordapp.com/oauth2/authorize?client_id=437363717076811808&permissions=19456&scope=bot");
+//         window.open("#");
 //     });
 // }
 
