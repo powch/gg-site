@@ -8,7 +8,8 @@ const fade = () => {
 //discord bot link button
 const discordBtn = () => {
     document.getElementById("discord").addEventListener("click", function () {
-         window.open("http://www.google.com"); //replace with bot url once finished
+        window.open("http://www.google.com");
+    });
 }
 
 //randomize quote generation
@@ -26,9 +27,12 @@ const quoteRandomizer = () => {
     quoteElement.innerHTML = quoteArray[index];
 }
 
+
+
 //loads functions when DOM is loaded
 $(function() {
    fade();
    discordBtn();
    quoteRandomizer();
 });
+
