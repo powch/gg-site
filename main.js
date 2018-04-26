@@ -1,17 +1,23 @@
+
+
 //initial fade in for .post
-var fade = function() {
+const fade = () => {
     $(".post, .quote").hide(0).fadeIn(1000);
 }
 
 //discord bot link button
-// var discordBtn = function() {
-//     document.getElementById("discord").addEventListener("click", function() {
-//         window.open("#");
-//     });
-// }
+const discordBtn = () => {
+    document.getElementById("discord").addEventListener("click", function () {
+         window.open("www.google.com");
+    });
+}
+
+//randomize quote generation
+
 
 //loads functions when DOM is loaded
 $(function() {
    fade();
    discordBtn();
+   quoteRandomizer();
 });
