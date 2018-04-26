@@ -2,7 +2,7 @@
 
 //initial fade in for .post
 const fade = () => {
-    $(".post, .quote").hide(0).fadeIn(1000);
+    $(".post, .quote, .team").hide(0).fadeIn(1000);
 }
 
 //discord bot link button

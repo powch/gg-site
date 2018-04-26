@@ -82,3 +82,19 @@ html {
 .video {
     padding-top: 5%;
 }
+
+.team {
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+.team img {
+    padding-bottom: 2%;
+    opacity: .75;
+    transition: .3s opacity;
+    width: 75%;
+}
+
+.team img:hover {
+    opacity: 1;
+}
